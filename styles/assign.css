@@ -1,13 +1,24 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 .inter-normal {
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+.raleway-normal{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-size: 65px;
+  font-style: normal;
+}
 /*header*/
 .header{
-    background-image: url('../images/asset/Hero-bg.png');
+    background-image: url('../images/Assets/Hero-bg.png');
     height: 100vh;
 }
 
@@ -50,13 +61,13 @@ nav ul a{
      font-size: 16px;
 }
 
-.raleway-normal{
-  font-family: "Raleway", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: bold;
-  font-size: 65px;
-  font-style: normal;
-}
+
+
+
+
+
+
+
 .banner-section{
     display: flex;
     justify-content: center;
@@ -66,3 +77,112 @@ nav ul a{
 .focused-btn{
     margin-left: 260px;
 }
+/*action style*/
+
+.action{
+    width: 1140px;
+    height: 328px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0 117px 0 183px;
+}
+
+.action-heading{
+    font-weight: 700;
+    font-size: 42px;
+    height: 49px;
+
+}
+
+   
+   
+
+.action-description{
+   color: #25243280;
+   font-size: 24px;
+   font-weight: 400;
+   line-height: 30px;
+   text-align: left;
+   
+   }
+.action-content{
+    width: 517px;
+    height: 203px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 23;
+    text-align: start;
+}
+.btn-len{
+    width: 229px;
+}
+btn-text{
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+
+}
+
+.action-picture{
+    width: 403px;
+    height:328px ;
+    border-radius: 48px;
+
+}
+/*productive users*/
+.productive-users{
+width: 1140px;
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 10;
+border-radius: 24px;
+background-color:#4E47FF1A ;
+padding: 70px 70px 70px 70px;
+margin: 80px 50px 80px 50px;
+}
+
+.pro-user{
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 45px;
+    text-align: center;
+    margin: 40px;
+
+}
+.user-font{
+    width: 180px;
+    height: 121px;
+    font-size:80px ;
+    font-weight: 700px;
+    line-height: 97px;
+    color: #4E47FF;
+}
+
+.joined-users{
+    display: flex;
+    width: 856px;
+    justify-content: space-between;
+    align-items:center ;
+    font-size: 38px;
+    font-weight: 700;
+    margin: 10px 0px;
+}
+
+.user-text{
+    font-size: 20px;
+    font-weight:400px ;
+    line-height:24px ;
+    text-align: center;
+    color:#00000080 ;
+}
+
+
+.user-box{}
+
+
+
+
